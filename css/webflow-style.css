@@ -2245,8 +2245,10 @@ p {
 
 .about-text {
   color: #47474f;
+  text-align: center;
   margin-bottom: 40px;
-  font-size: 18px;
+  font-size: 20px;
+  font-style: normal;
   line-height: 25px;
 }
 
@@ -2650,6 +2652,23 @@ p {
 
 .team-member-position {
   margin-bottom: 24px;
+}
+
+.italic-text, .heading {
+  font-style: italic;
+}
+
+.italic-text-2 {
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.bold-text {
+  font-size: 20px;
+}
+
+.list-item, .list-item-2, .list-item-3 {
+  text-align: left;
 }
 
 @media screen and (min-width: 1440px) {
